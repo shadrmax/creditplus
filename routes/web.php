@@ -22,3 +22,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
 Route::get('/telegram', [App\Http\Controllers\TelegramNotificationController::class, 'index']);
 Route::get('/user_profile', [App\Http\Controllers\UserProfileController::class, 'index']);
 Route::get('/credit/new', [App\Http\Controllers\CreditController::class, 'index']);
+Route::get('/course/get', [App\Http\Controllers\CourseController::class, 'getCourseIsNBU']);

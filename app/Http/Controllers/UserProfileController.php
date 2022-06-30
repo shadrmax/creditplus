@@ -15,6 +15,7 @@ class UserProfileController extends Controller
     public function index(UserProfile $user_profile)
     {
         $user_profile->where('user_id', 1)->first();
+        return view('user_profile.index', compact('user_profile'));
     }
 
     /**
