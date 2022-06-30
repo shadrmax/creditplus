@@ -59,27 +59,8 @@ class UserProfileController extends Controller
     {
         //
     }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\UserProfile  $userProfile
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, UserProfile $userProfile)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\UserProfile  $userProfile
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(UserProfile $userProfile)
     {
-        
+
     }
 }
